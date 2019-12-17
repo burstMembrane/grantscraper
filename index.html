@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- GRANTS CALENDAR BY L.P 2019
+A PYTHON/JAVASCRIPT PROJECT TO AGGREGATE GRANT OPPORTUNITIES FOR MELBOURNE ARTISTS/CREATIVES  -->
+
+    <!-- BOOTSTRAP CDN LOAD -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+
+    <!-- LOCAL RESOURCES -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <!-- DATE.JS FOR DATE PARSING -->
+    <script src="libs/moment-with-locales.js"></script>
+    <script src="libs/en-au.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Melbourne Arts Grants Calendar</title>
+
+</head>
+
+<body>
+
+    <!-- BOOTSTRAP CONTAINER -->
+    <div class="container">
+
+        <div class="row">
+            <h1 class="display-4"> Melbourne Arts Grants</h1>
+            <div class="col"></div>
+
+            <!-- BOOTSTRAP TABLE -->
+            <table class="table table-hover" id="grantsTable">
+                <thead class="thead-dark">
+                    <!-- SET TABLE HEAD -->
+                    <tr id="headerrow">
+                        <th>Organisation</th>
+                        <th>Program</th>
+                        <th>Link</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <!-- TABLE BODY -->
+                <tbody>
+                    <!-- DATA FROM AJAX/JQUERY -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: grantscraper
+Version: 0.1.0
+Summary: scrapes grants
+Home-page: UNKNOWN
+Author: Liam
+Author-email: liamfpower@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0

@@ -1,0 +1,8 @@
+README.md
+grantscraper.py
+setup.py
+grantscraper.egg-info/PKG-INFO
+grantscraper.egg-info/SOURCES.txt
+grantscraper.egg-info/dependency_links.txt
+grantscraper.egg-info/requires.txt
+grantscraper.egg-info/top_level.txt
